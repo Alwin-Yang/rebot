@@ -14,33 +14,36 @@ Third-party dependencies are vendored as Git submodules under `third-party/`:
 - `third-party/reBot-DevArm` — hardware docs and assets
 - `third-party/lerobot` — Hugging Face LeRobot
 
+---
 ## Clone
-
 Clone with submodules included:
-
 ```bash
 git clone --recurse-submodules git@github.com:Alwin-Yang/rebot.git
 ```
 
 If you already cloned the repo without submodules:
-
 ```bash
 git submodule update --init --recursive
 ```
 
+---
 ## Install SenseCraft
 
 Download the latest package from the [SenseCraft Robotics download page](https://test-sensecraft-expose.seeed.cc/robotics/#download).
 
 On Linux:
-
 ```bash
 cd ~/Downloads
 sudo dpkg -i SenseCraft-Robotics.deb
 ```
+Launch **LeRobot Frontend** from your applications menu (or double-click its desktop icon). 
+Register an account, sign in, and follow the in-app setup guide.
 
+---
 ## Calibrate the robot
 
 > **Note:** Complete robot assembly before calibration.
 
 Follow the calibration guide in the [reBot B601 DM getting started wiki](https://wiki.seeedstudio.com/rebot_b601_dm_getting_started/#step-3-calibration-rebot-arm-and-getting-started).
+
+
