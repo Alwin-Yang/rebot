@@ -1,0 +1,6 @@
+[submodule "third-party/reBot-DevArm"]
+	path = third-party/reBot-DevArm
+	url = https://github.com/Seeed-Projects/reBot-DevArm.git
+[submodule "third-party/lerobot"]
+	path = third-party/lerobot
+	url = https://github.com/huggingface/lerobot.git
